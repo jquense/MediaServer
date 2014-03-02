@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title of the document</title>
+</head>
+
+    <body class="container">
+        <form method="post" action="/requestAccess">
+            <input type="hidden" name="next"  value="{{next}}" />
+			<input type="hidden" name="error" value="{{error}}" />
+			<input type="hidden" name="client_id" value="{{client}}" />
+
+            <label>{{ client }} is requesting Access to your ish</label>
+            <button value="true"  name="decision">accept</button>
+            <button value="false" name="decision">deny</button>
+        </form>
+    </body>
+</html>

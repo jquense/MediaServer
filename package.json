@@ -1,0 +1,46 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "restify": "2.6.0",
+    "mongoose": "3.8.1",
+    "q": "*",
+    "lodash": "*",
+    "underscore.string": "*",
+    "minimatch": "*",
+    "gaze": "*",
+    "node-restify-validation": "0.0.6",
+    "node-restify-swagger": "~0.1.5",
+    "validator": "~2.0.0",
+    "restify-validator": "~0.3.1",
+    "simple-lru-cache": "0.0.1",
+    "node-int64": "~0.3.0",
+    "chainsaw": "~0.1.0",
+    "long": "~1.1.2",
+    "debuglog": "0.0.2",
+    "bluebird": "~1.0.0",
+    "lru-cache": "~2.5.0",
+    "buffers": "~0.1.1",
+    "guid": "0.0.12",
+    "client-sessions": "~0.6.0",
+    "oauthenticity": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": ">=0.4.2",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-handlebars": "~0.6.1",
+	"handlebars": "~1.1.2",
+    "chai": "~1.9.0",
+    "chai-as-promised": "~4.1.0",
+    "mocha": "~1.17.1"
+  }
+}

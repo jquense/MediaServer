@@ -1,0 +1,14 @@
+{
+    "camelcase": true,
+    "eqeqeq": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": "vars",
+    "strict": true,
+    "asi": true,
+    "eqnull": true,
+    "laxbreak": true,
+    "laxcomma": true,
+    "browser": true,
+    "node": true
+}
